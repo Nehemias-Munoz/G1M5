@@ -11,7 +11,7 @@
 <body>
 	<main class="container mt-3">
 	<section class="card p-3">
-        <h3>Consulta</h3>
+        <h3 class="text-center">Consulta</h3>
         <form
           action=""
           method="post"
@@ -34,9 +34,9 @@
           </div>
           <div class="mb-3">
             <label for="consulta" class="form-label">Ingrese su consulta:</label>
-            <input type="text" class="form-control" id="consulta" name="consulta" required/>
+            <textarea rows="3" class="form-control" id="consulta" name="consulta"></textarea>
           </div>
-          <div>
+          <div class="d-grid gap-2">
           <button type="submit" class="btn btn-success">Enviar</button>
           </div>
         </form>
