@@ -48,7 +48,7 @@ public class CrearUsuario extends HttpServlet {
 		request.setAttribute("nombre",nombre);
 		request.setAttribute("primerApellido",primerApellido);
 		request.setAttribute("segundoApellido",segundoApellido);
-		request.setAttribute("segundoApellido",segundoApellido);
+		request.setAttribute("fechaNacimiento",fechaNacimiento);
 		request.setAttribute("run",run);
 		request.getRequestDispatcher("listarUsuario.jsp").forward(request, response);
 	}

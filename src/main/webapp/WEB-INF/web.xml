@@ -9,4 +9,14 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>CrearUsuario</display-name>
+    <servlet-name>CrearUsuario</servlet-name>
+    <servlet-class>control.CrearUsuario</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CrearUsuario</servlet-name>
+    <url-pattern>/CrearUsuario</url-pattern>
+  </servlet-mapping>
 </web-app>
