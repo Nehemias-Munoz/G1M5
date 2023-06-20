@@ -13,10 +13,7 @@
 	<section class="card p-3">
       	<div class="card-body">
         <h3 class="text-center">Crear capacitacion</h3>
-        <form
-          action=""
-          method="post"
-        >
+        <form action="CrearCapacitacion" method="post">
           <div class="mb-3">
             <label for="rut" class="form-label">Rut:</label>
             <input type="text" class="form-control" name="rut" id="rut" required />

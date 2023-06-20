@@ -19,4 +19,14 @@
     <servlet-name>CrearUsuario</servlet-name>
     <url-pattern>/CrearUsuario</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CrearCapacitacion</display-name>
+    <servlet-name>CrearCapacitacion</servlet-name>
+    <servlet-class>control.CrearCapacitacion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CrearCapacitacion</servlet-name>
+    <url-pattern>/CrearCapacitacion</url-pattern>
+  </servlet-mapping>
 </web-app>
