@@ -12,7 +12,7 @@
 <section class="card p-3">
         <div class="card-body">
         		<h3 class="text-center">Creacion Usuario</h3>
-          <form action="" method="post">
+          <form action="CrearUsuario" method="post">
             <div class="form-group">
               <label for="nombre">Nombre</label>
               <input type="text" class="form-control" name="nombre" id="nombre" required/>
